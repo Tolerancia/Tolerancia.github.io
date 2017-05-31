@@ -10,33 +10,184 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		.bg-black {
+			background-color: #000;
+		}
+		.bg-white {
+			background-color: #fff;
+		}
+		a {
+			color: white;
+		}
+		p {
+			color: white;
+			text-align: justify;
+		}
+		div {
+			color: white;
+		}
+		h3 {
+    		text-align: center;
+    		font-weight: bold;
+    		color: white;
+    		font-family: "Times new roman";
+    	}
+    	.intuicao {
+    		font-size: 13pt;
+    	}
+    	.denuncia {
+    		text-align: right;
+    		font-weight: bold;
+    		font-family: "Times new roman";
+    	}
+    	.card {
+		  padding: 20px;
+		  color: #fff;
+		  justify-content: center;
+		  text-align: center;
+		  border: 2px solid;
+		  border-radius: 8px;
+		}
+		.card-verde {
+		  background-color: #9D41C7;
+		}
+		.card-roxo {
+			background-color: #33cccc;
+		}
+		.card-azul {
+			background-color: #00C3FF;
+		}
+
+		.tema {
+			font-weight: bold;
+			text-align: center;
+			font-size: 15pt;
+			font-family: "Times new roman";	
+		}
+		.t1 {
+			font-size: 13pt;
+		}
+		.tema02 {
+			font-weight: bold;
+			text-align: center;
+			font-size: 15pt;
+			font-family: "Times new roman";
+		}
+		.t2 {
+			font-size: 12pt;
+		}
+    	.tema03 {
+    		font-weight: bold;
+    		text-align: center;
+    		font-size: 15pt;
+    		font-family: "Times new roman";
+    	}
+    	.t3 {
+    		font-size: 13pt;
+    	}
+    	.navbar-brand {
+    		font-weight: bold;
+    		text-align: center;
+    	}
+    	.temaa {
+    		text-align: left;
+    		color: grey;
+    		font-weight: bold;
+    		font-size: 13pt;
+    	}
+    	.email {
+    		text-align: right;
+    		color: grey;
+    		font-weight: bold;
+    		font-size: 13pt;
+    	}
+
+	</style>
 </head>
-<body bgcolor="grey">
-	<img align="center" src="imgs/banner.jpg">
-	<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Tolerância</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
+<body class="bg-black">
+
+	<!-- Começo da barra de menu -->
+		<nav class="navbar navbar-default	 bg-white">
+		<div class="container-fluid">
+		<div class="navbar-header">
+	      	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>                        
+	      	</button>
+	      	<a class="navbar-brand" href="#">Tolerância</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	    <ul class="nav navbar-nav">
         <li class="active"><a href="#">Início</a></li>
-        <li><a href="#">Machismo</a></li>
-        <li><a href="#">Igualdade de genêro</a></li>
-        <li><a href="#">Relacionamento abusivo</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    	<li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Temas
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="html/relacionamento.html">Relacionamento abusivo</a></li>
+          <li><a href="html/empoderamento.html">Empoderamento feminino</a></li>
+          <li><a href="html/machismo.html">Machismo</a></li>
+        </ul>
+      </li>
+    	<ul class="nav navbar-nav navbar-right">
+	        <li><a href="html/cadastro.html"><span class="glyphicon glyphicon-user"></span> Inscreva-se</a></li>
+	        <li><a href="html/login.html"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
+    	</ul>
+	    	</div>
+	  		</div>
+		</nav>
+	<!-- Fim da barra de menu -->
+
+		<img class="center-block" width="700" height="400" src="imgs/banner.jpg">
+		<div class="container">
+			<br>
+		<!-- O que buscamos -->
+    		<h3>O QUE BUSCAMOS</h3>
+    		<p class="intuicao"> Mostar a capacidade de aceitar as pessoas ou grupos sociais, que tem uma atitude diferente das que são a norma no seu próprio grupo. Concientizar as pessoas sobre elas terem total direito de fazerem uma denuncia diante que uma ação inrelevante.</p>
+  			<p class="denuncia"> Para denunciar disck - 100</p>
+  		<!-- fim de " O que buscamos" -->
+		</div>
+
+  			<br>
+  		<div class="container">
+  		<div class="row">
+  			<div class="col-md-4 card card-verde">
+  				<p class="tema">Relacionamento abusivo</p>
+  				<p class="t1">"Eu conheci o Igor* há 20 anos. Ele me travava muito bem, e eu fiquei apaixonada. O comportamento dele já era controlador, mas eu não via. Começou com os presentes...</p><a href="https://estilo.uol.com.br/comportamento/noticias/redacao/2017/02/20/ele-parecia-um-fofo-mas-era-abusivo.htm">ver mais</a>
+  			</div>
+  			<div class="col-md-4 card card-roxo">
+  				<p class="tema02">Empoderamento feminino</p>
+  				<p class="t2">Câmara promove audiência para debater casos de sucesso no empoderamento feminino no mercado de trabalho.</p>
+  				<br>
+  				<br>
+  				<br>
+  				<a href="http://www.segs.com.br/eventos/66092-camara-promove-audiencia-para-debater-casos-de-sucesso-no-empoderamento-feminino-no-mercado-de-trabalho.html">ver mais</a>
+  			</div>
+  			<div class="col-md-4 card card-azul">
+  				<p class="tema03">Machismo</p>
+  				<p class="t3">Partimos da premissa de uma sociedade abertamente machista. Em algumas ocasiões ele velado vem em forma de comentários até chegarmos ao “Mas”. E isso se aplica a diferentes casos...</p><a href="http://contramao.una.br/o-machismo-no-brasil-revelado-em-dados-e-acontecimentos-recentes/">ver mais</a>
+  			</div>
+  		</div>
+  		</div>
+
+  			<br>
+  			<h3>DESENVOLVEDORA</h3>
+  			<br>
+  			<img class="img-circle center-block" width="300" height="300" src="imgs/desenvolvedora.jpg">
+  			<br>	
+  			<br>
+  	<!-- Início do Roda pé -->
+  		<nav class="navbar navbar-default bg-white">
+			<div class="container-fluid">
+			<br>
+				  <div class="temaa col-md-1 email">Tolerância</div>
+				  <div class="col-md-7"></div>
+				  <div class="text-right email col-md-4">vanessandrademachado@gmail.com</div>
+			</div>
+			<br>
+		</nav>
+  	<!-- Fim do Roda pé -->
 </body>
 </html>
